@@ -31,7 +31,7 @@ namespace InfoCaster.Umbraco.OpenAssociatedDoctype
                     {
                         Icon = "wrench"
                     };
-                    menuItem.AdditionalData.Add("actionRoute", string.Format("/settings/framed/%2Fumbraco%2Fsettings%2FeditNodeTypeNew.aspx%3Fid%3D{0}", content.ContentTypeId));
+                    menuItem.AdditionalData.Add("actionRoute", string.Format("settings/framed/settings%2FeditNodeTypeNew.aspx%3Fid%3D{0}", content.ContentTypeId));
                     e.Menu.Items.Add(menuItem);
                 }
             }
